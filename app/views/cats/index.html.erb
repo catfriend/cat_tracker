@@ -1,5 +1,7 @@
 <h1>Listing cats</h1>
 
+Repo: <%= link_to "Github", 'https://github.com/catfriend/CatTracker' %>
+
 <table>
   <thead>
     <tr>
@@ -23,6 +25,8 @@
     <% end %>
   </tbody>
 </table>
+
+<%= paginate @cats %>
 
 <br>
 
